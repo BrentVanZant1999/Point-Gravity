@@ -1,0 +1,2 @@
+isEntering = true;
+isExiting = false; 
