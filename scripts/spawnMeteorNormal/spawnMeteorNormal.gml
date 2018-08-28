@@ -22,11 +22,26 @@ else if (temp == 2) {
 	ySpawn = -100;
 }
 var tempObj; 
-var temp2 = choose(1); 
+var temp2 = choose(1,2,3,4); 
 switch(temp2){
 	case(1):
 	{
 	tempObj = instance_create_depth(xSpawn,ySpawn,-4,objMeteor1); 
+	}
+	break;
+	case(2):
+	{
+	tempObj = instance_create_depth(xSpawn,ySpawn,-4,objMeteor2); 
+	}
+	break;
+	case(3):
+	{
+	tempObj = instance_create_depth(xSpawn,ySpawn,-4,objMeteor3); 
+	}
+	break;
+	case(4):
+	{
+	tempObj = instance_create_depth(xSpawn,ySpawn,-4,objMeteor4); 
 	}
 	break;
 }

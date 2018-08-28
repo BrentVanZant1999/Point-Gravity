@@ -1,2 +1,0 @@
-isEntering = true;
-isExiting = false; 

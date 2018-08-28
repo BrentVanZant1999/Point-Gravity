@@ -1,0 +1,1 @@
+draw_sprite_ext(sprMeteor3,0,x,y,1,1,myAngle,myColor,1); 

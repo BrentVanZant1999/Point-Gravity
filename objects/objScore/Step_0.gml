@@ -1,0 +1,3 @@
+if (isEntering) {
+	y += yStep;
+}

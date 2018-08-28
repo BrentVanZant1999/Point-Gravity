@@ -1,10 +1,11 @@
-if (type == 1) {
-	
+if (type == 0 || type == 1) {
+	explodeSprite();
+	instance_destroy(self);	
+	//end round
 }
 else if (type == 2) {
-	
-	
-}
-else if (type == 3) {
-	
+	explodeSprite();
+	objHandler.currentScore+=5;
+	instance_destroy(self);	
+	//raise score
 }

@@ -1,0 +1,3 @@
+if (isEntering) {
+	x += xStep;
+}
