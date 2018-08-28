@@ -1,6 +1,6 @@
 currentScore = 0; 
 highScore = 0; //use ini files
-isMenu = false;
+isMenu = true;
 animationTime = 30;
 newHigh = false; 
 //gamestuff

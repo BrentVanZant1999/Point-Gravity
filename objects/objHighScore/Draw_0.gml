@@ -7,5 +7,5 @@ draw_set_halign(fa_center);
 draw_text(x,y,"Highscore: "+string(objHandler.highScore));
 if (objHandler.newHigh) {
 	draw_set_font(ft_subText);
-draw_text(x,y+28,"New Highscore!");
+draw_text(x,y+30,"New Highscore!");
 }

@@ -1,64 +1,57 @@
 var time = argument0
 if (time <= 5) {
-		spawnMeteorNormal();
+		spawnMeteorNormal(3);
 }
 else if (time <= 10) {
-		spawnMeteorNormal();
-		spawnMeteorNormal();
+		spawnMeteorNormal(3.5);
 		if (time % 2) {
-			spawnMeteorGood();
+			spawnMeteorGood(3.5);
 		}
-		spawnMeteorGood();
 		if (time % 3) {
-			spawnMeteorBad();
+			spawnMeteorBad(3.5);
 		}
 }
 else if (time <= 15) {
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
+		spawnMeteorNormal(4);
 		if (time % 2) {
-			spawnMeteorGood();
+			spawnMeteorGood(4);
 		}
-		spawnMeteorGood();
 		if (time % 3) {
-			spawnMeteorBad();
+			spawnMeteorBad(4);
 		}
 }
 else if (time <= 25) {
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
+		spawnMeteorNormal(5);
 		if (time % 4) {
-			spawnMeteorGood();
+			spawnMeteorGood(5);
 		}
-		spawnMeteorGood();
 		if (time % 3) {
-			spawnMeteorBad();
+			spawnMeteorBad(5);
 		}
 }
 else if (time <= 45) {
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		if (time % 6) {
-			spawnMeteorGood();
+		spawnMeteorNormal(6);
+		if (time % 5) {
+			spawnMeteorGood(6);
 		}
-		spawnMeteorGood();
-		if (time % 2) {
-			spawnMeteorBad();
+		if (time % 3) {
+			spawnMeteorBad(6);
 		}	
 }
-else {
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
-		spawnMeteorNormal();
+else if (time <= 65) {
+		spawnMeteorNormal(7);
 		if (time % 8) {
-			spawnMeteorGood();
+			spawnMeteorGood(7);
 		}
-		spawnMeteorBad();	
+		if (time % 2) {
+			spawnMeteorBad(7);
+		}	
+}
+else  {
+		spawnMeteorNormal(8);
+		if (time % 5) {
+			spawnMeteorGood(8);
+		}
+			spawnMeteorBad(8);
+
 }

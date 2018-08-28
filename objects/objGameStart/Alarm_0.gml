@@ -1,9 +1,9 @@
 instance_create_depth(0,0,-1,objBlackHole); 
-instance_create_depth(0,0,-1,objPlayer); 
+instance_create_depth(room_width,room_height+10,-1,objPlayer); 
 instance_create_depth(0,0,-1,objBackground); 
-instance_create_depth(0,0,-1,objSpawner);
 instance_create_depth(0,0,-1,objOutline);
 instance_create_depth(0,0,-1,objOutlineMax);
-instance_create_depth(0,0,-12,objScore);
+instance_create_depth(0,0,-1,objTitle); 
+instance_create_depth(x,y,-12,objTap);
 randomize();
 instance_destroy();

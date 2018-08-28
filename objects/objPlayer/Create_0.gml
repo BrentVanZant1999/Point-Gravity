@@ -1,11 +1,14 @@
 gravityConst = 0.4;
 jumpConst = 6; 
 canJump = true;
+isActive = false; 
 firstJump = true;
 isOn = false; 
 depth = -10;
-alarm[0]= 1;
+alarm[4]= 30;
 gravity =0; 
 direction = 90;
-
+yStep= ((room_height/4) + 10)/30;
+xDest = room_width/2; 
+yDest = (room_height/4)+60;
 myColor = objHandler.colorPlayer;

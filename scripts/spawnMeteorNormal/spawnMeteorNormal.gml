@@ -1,3 +1,4 @@
+var mySpeed = argument0;
 var temp = choose(1,2,3,4); //side choice
 var xSpawn = 0;
 var ySpawn = 0; 
@@ -45,7 +46,7 @@ switch(temp2){
 	}
 	break;
 }
-tempObj.mySpeed = objHandler.speedConst;
+tempObj.mySpeed = mySpeed;
 tempObj.myAngle = irandom_range(0,360);
 tempObj.myXDest = objBlackHole.x; 
 tempObj.myYDest = objBlackHole.y;
