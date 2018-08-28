@@ -3,8 +3,8 @@ if ( type == 0 ) {
 	myColor = objHandler.colorEdge;
 }
 else if ( type == 1 ) {
-	myColor = objHandler.colorPlayer;
+	myColor = objHandler.colorMeteor;
 }
 else if ( type == 2 ) { 
-	myColor = objHandler.colorMeteor;	
+	myColor = objHandler.colorPlayer;	
 }

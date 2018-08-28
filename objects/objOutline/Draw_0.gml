@@ -1,0 +1,1 @@
+draw_sprite(sprMin,0,0,0);

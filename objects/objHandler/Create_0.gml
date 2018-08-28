@@ -3,7 +3,8 @@ highScore = 0; //use ini files
 isMenu = false;
 animationTime = 30;
 
-
+//gamestuff
+speedConst = 5;
 
 // ---COLORS---
 colorBG = make_color_rgb(225,225,225);

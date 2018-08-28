@@ -1,1 +1,0 @@
-myAngle = direction;
