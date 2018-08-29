@@ -9,7 +9,7 @@ newHigh = false;
 speedConst = 5;
 inGame = false; 
 audio_play_sound(bgMusic, 1, true);
-
+resizeScreen();
 // ---COLORS---
 colorBG = make_color_rgb(225,225,225);
 colorEdge = make_color_rgb(0,0,0);
