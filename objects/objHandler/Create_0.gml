@@ -1,11 +1,14 @@
 currentScore = 0; 
-highScore = 0; //use ini files
+ini_open("savedata.ini");
+highScore = ini_read_real("savedData", "highscore", 0);
+ini_close();
 isMenu = true;
 animationTime = 30;
 newHigh = false; 
 //gamestuff
 speedConst = 5;
 inGame = false; 
+audio_play_sound(bgMusic, 1, true);
 
 // ---COLORS---
 colorBG = make_color_rgb(225,225,225);

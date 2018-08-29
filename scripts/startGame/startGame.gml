@@ -13,3 +13,4 @@ with (objTap) {
 }
 objHandler.inGame = true;
 objHandler.currentScore = 0;
+objHandler.newHigh = false; 
